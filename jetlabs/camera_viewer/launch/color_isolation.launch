@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find jet_bringup)/launch/jet_real.launch"/>
+  <node name="color_isolation" pkg="camera_viewer" type="color_isolation" output="screen"/>
+</launch>
+

@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find jet_bringup)/launch/jet_real.launch"/>
+  <node name="edge_detection" pkg="camera_viewer" type="edge_detection" output="screen"/>
+</launch>

@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find jet_bringup)/launch/jet_real.launch"/>
+  <node name="sonar_sensor_example" pkg="sonar_sensors" type="sonar_sensor_example" output="screen"/>
+</launch>

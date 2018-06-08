@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find jet_bringup)/launch/jet_real.launch"/>
+  <node name="basic_view" pkg="camera_viewer" type="basic_view" output="screen"/>
+</launch>

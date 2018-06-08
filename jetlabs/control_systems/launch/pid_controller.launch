@@ -1,0 +1,8 @@
+<launch>
+  <param name="Kp" type="double" value="0.2"/>
+  <param name="Ki" type="double" value="0.01"/>
+  <param name="Kd" type="double" value="0.01"/>
+
+  <include file="$(find jet_bringup)/launch/jet_real.launch"/>
+  <node name="pid_controller" pkg="control_systems" type="pid_controller" output="screen"/>
+</launch>

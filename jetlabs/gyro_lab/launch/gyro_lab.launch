@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find jet_bringup)/launch/jet_real.launch"/>
+  <node name="gyro_lab_sol" pkg="gyro_lab" type="gyro_lab_sol" output="screen"/>
+</launch>
+
