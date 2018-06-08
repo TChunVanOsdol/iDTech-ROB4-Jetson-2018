@@ -5,4 +5,4 @@ Welcome to ROB4 2018! Some goals this year include a wider range of robotics con
 
 For last year's full GitHub repository, check here: github.com/iDTechHub/iD-Tech-ROB4-Jetson
 
-Credit goes to Christian Turkoanje for last year's content and the ROS install structure.
+Credit goes to Christian Turkoanje (aka Groot) for last year's content and the ROS install structure.
