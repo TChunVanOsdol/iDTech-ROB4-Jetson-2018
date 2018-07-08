@@ -6,3 +6,9 @@ Welcome to ROB4 2018! Some goals this year include a wider range of robotics con
 For last year's full GitHub repository, check here: github.com/iDTechHub/iD-Tech-ROB4-Jetson
 
 Credit goes to Christian Turkoanje (aka Groot) for last year's content and the ROS install structure.
+
+Updates needed to make the repository functional:
+  All .sh and .cfg files must be executable
+  Make CMakeLists.txt a symbolic link to /opt/ros/kinetic/share/catkin/cmake/toplevel.cmake
+  Chech that __init__.py.plain.in is in cv_bridge
+  
